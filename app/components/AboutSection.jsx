@@ -1,6 +1,6 @@
 export default function AboutSection() {
     return (
-        <section id="about" className="bg-gradient-to-b from-white to-neutral-100 section-spacing">
+        <section id="about" className="bg-sky-100 section-spacing">
             <div className="container-max">
                 {/* Header */}
                 <div className="text-center mb-16">
