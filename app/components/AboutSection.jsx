@@ -5,9 +5,9 @@ export default function AboutSection() {
                 {/* Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-neutral-900 mb-4">About Zion Financial Consultant</h2>
-                    <p className="mb-6 text-lg md:text-xl font-semibold text-primary-1000 text-center leading-tight max-w-5xl mx-auto">
-                        Dedicated to strengthening organizational financial health through professional, compliant, and ethical services.
-                    </p>
+                    <p className="mb-6 text-lg md:text-xl font-semibold text-primary-1000 text-left leading-tight max-w-5xl mx-auto">
+                        Zion Financial Consultant is a faith-based Christian company committed to delivering  professional Human Resource and Financial Management services with integrity,  excellence, and biblical values.</p>
+                    <p className="mb-6 text-lg md:text-xl font-semibold text-primary-1000 text-left leading-tight max-w-5xl mx-auto">We exist to support organizations, ministries, and businesses in achieving sustainable  growth while honouring God in their operations. Our approach combines professional  expertise with spiritual principles to create impactful and ethical business solutions.</p>
                 </div>
 
                 {/* Mission & Vision Cards */}
@@ -16,12 +16,9 @@ export default function AboutSection() {
                     <div className="card group hover:shadow-xl transition-shadow">
                         <div className="text-5xl mb-6 text-primary-600 transform transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-700">🎯</div>
                         <h2 className="text-2xl font-bold text-neutral-900 mb-4">Our Mission</h2>
-                        <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                            To provide exceptional financial consulting, accounting, and governance services that empower organizations in Rwanda to achieve sustainable growth, maintain compliance, and uphold ethical financial practices.
+                        <p className="text-lg text-neutral-600 leading-relaxed mb-4">To provide high-quality HR and financial management services that empower  organizations, promote integrity, and reflect the values of the Kingdom of God.
                         </p>
-                        <p className="text-neutral-600">
-                            We serve SMEs, churches, nonprofits, startups, and social impact organizations with tailored solutions designed for their unique needs.
-                        </p>
+
                     </div>
 
                     {/* Vision Card */}
@@ -29,11 +26,9 @@ export default function AboutSection() {
                         <div className="text-5xl mb-6 text-primary-600 transform transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-700">✨</div>
                         <h2 className="text-2xl font-bold text-neutral-900 mb-4">Our Vision</h2>
                         <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                            To be Rwanda&apos;s trusted partner in financial excellence, recognized for combining professional expertise with deep understanding of organizational values, ethical governance, and sustainable impact.
+                            To become a leading Christian consulting firm in Africa and beyond, transforming  businesses through faith-driven excellence and professional service.
                         </p>
-                        <p className="text-neutral-600">
-                            We envision a Rwanda where every organization has access to affordable, professional financial guidance that strengthens integrity and long-term success.
-                        </p>
+
                     </div>
                 </div>
 
@@ -46,28 +41,33 @@ export default function AboutSection() {
                         </p>
                     </div>
 
-                    {/* Values Grid - 4 columns */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {/* Values Grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                         {[
                             {
                                 title: "Integrity",
-                                description: "Honest, transparent, and ethical in all dealings",
+                                description: "We uphold honesty and transparency in all our work",
                                 emoji: "💎",
                             },
                             {
-                                title: "Professionalism",
-                                description: "Expert, knowledgeable, and accountable service",
+                                title: "Excellence",
+                                description: "We deliver high-quality and professional services",
                                 emoji: "⭐",
                             },
                             {
-                                title: "Compliance",
-                                description: "Adherence to all Rwandan regulations and standards",
-                                emoji: "✓",
+                                title: "Stewardship",
+                                description: "We manage resources responsibly as entrusted by God",
+                                emoji: "🌱",
                             },
                             {
-                                title: "Client Focus",
-                                description: "Customized solutions tailored to your needs",
-                                emoji: "🎯",
+                                title: "Faith",
+                                description: "We operate under Christian principles and biblical truth",
+                                emoji: "📖",
+                            },
+                            {
+                                title: "Service",
+                                description: "We are committed to serving others with humility and dedication",
+                                emoji: "🤝",
                             },
                         ].map((value, idx) => (
                             <div key={idx} className="card group hover:border-primary-500 hover:shadow-xl hover:bg-primary-50 transition-all duration-300 text-center">
@@ -83,6 +83,6 @@ export default function AboutSection() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

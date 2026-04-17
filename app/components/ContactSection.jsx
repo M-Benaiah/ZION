@@ -56,20 +56,35 @@ export default function ContactSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Contact Info Card */}
                     <div className="bg-white p-6 rounded-xl border">
-                        <h3 className="text-xl font-semibold text-neutral-900">Our Office</h3>
-                        <ul className="mt-4 space-y-3 text-neutral-700 text-sm">
-                            <li>
-                                <strong>Location:</strong> Kigali, Rwanda
+                        <h3 className="text-xl font-bold text-neutral-900">Zion Financial Consultant Ltd</h3>
+                        <ul className="mt-6 space-y-4 text-neutral-700 text-base">
+                            <li className="flex items-center gap-3">
+                                <span className="text-xl">📍</span>
+                                <span><strong>Location:</strong> Kigali, Rwanda</span>
                             </li>
-                            <li>
-                                <strong>Email:</strong> <a href="mailto:info@zionfinancial.rw" className="text-primary-600">info@zionfinancial.rw</a>
+                            <li className="flex items-center gap-3">
+                                <span className="text-xl">✉️</span>
+                                <span>
+                                    <strong>Email:</strong>{" "}
+                                    <a href="mailto:zionfinanceconsultant@yahoo.com" className="text-primary-600 hover:underline">
+                                        zionfinanceconsultant@yahoo.com
+                                    </a>
+                                </span>
                             </li>
-                            <li>
-                                <strong>Phone:</strong> <a href="tel:+250000000000" className="text-primary-600">+250 XXX XXX XXX</a>
+                            <li className="flex items-center gap-3">
+                                <span className="text-xl">📞</span>
+                                <span>
+                                    <strong>Phone:</strong>{" "}
+                                    <a href="tel:+250788712930" className="text-primary-600 hover:underline">
+                                        +250 788 712 930
+                                    </a>
+                                </span>
                             </li>
                         </ul>
 
-                        <p className="mb-4 text-lg md:text-xl font-semibold text-primary-1000 text-center leading-tight max-w-5xl mx-auto">Our team is ready to assist you with financial consulting, compliance, and governance solutions.</p>
+                        <p className="mt-8 text-neutral-600 leading-relaxed">
+                            Our team is ready to assist you with financial consulting, compliance, and governance solutions.
+                        </p>
                     </div>
 
                     {/* Contact Form */}
