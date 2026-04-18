@@ -31,6 +31,11 @@ export default function ServicesSection() {
                             <p className="text-neutral-600 leading-relaxed mb-4">
                                 {service.description}
                             </p>
+                            <ul className="text-neutral-600 text-sm mb-6 space-y-2 text-left list-disc pl-5">
+                                {service.features.map((feature, idx) => (
+                                    <li key={idx}>{feature}</li>
+                                ))}
+                            </ul>
 
                             {/* Learn More Link - reveals on hover */}
                             <div className="opacity-0 group-hover:opacity-100 transition-opacity">

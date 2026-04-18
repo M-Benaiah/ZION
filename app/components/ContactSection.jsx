@@ -169,12 +169,9 @@ export default function ContactSection() {
                                     className="mt-1 w-full border rounded-lg px-4 py-2 focus-ring"
                                 >
                                     <option value="">— Select a service —</option>
-                                    <option value="bookkeeping">Bookkeeping</option>
-                                    <option value="auditing">Auditing</option>
-                                    <option value="taxation">Taxation</option>
-                                    <option value="payroll">Payroll Management</option>
-                                    <option value="governance">Financial Governance</option>
-                                    <option value="advisory">Business Advisory</option>
+                                    <option value="HR Services">Human Resource (HR) Services</option>
+                                    <option value="Financial Services">Financial Management Services</option>
+                                    <option value="Business Support">Business Support Services</option>
                                 </select>
                             </label>
 

@@ -21,12 +21,9 @@ export default function Footer() {
   ];
 
   const services = [
-    "Bookkeeping & Accounting",
-    "Auditing Services",
-    "Taxation & Compliance",
-    "Payroll Management",
-    "Financial Advisory",
-    "Financial Governance",
+    "Human Resource (HR) Services",
+    "Financial Management Services",
+    "Business Support Services",
   ];
 
   return (
