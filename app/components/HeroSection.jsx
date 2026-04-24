@@ -30,8 +30,12 @@ export default function HeroSection() {
                     </p>
                 </div>
                 <p className="mb-8 text-lg md:text-xl font-semibold text-gray-200 text-left leading-tight max-w-5xl mx-auto">
-                    Zion Financial Consultant provides professional accounting, auditing, taxation, and financial governance services to SMEs, churches, startups, and social impact organizations — helping them achieve transparency, compliance, and sustainable growth.
-                </p>
+                    Zion Financial Consultant is a Christian, dynamic Business Process Outsourcing (BPO) and consulting
+                    company headquartered in Kigali, Rwanda.</p>
+                <p className="mb-8 text-lg md:text-xl font-semibold text-gray-200 text-left leading-tight max-w-5xl mx-auto">We are dedicated to helping organizations achieve cost
+                    efficiency, operational excellence, and sustainable growth. Guided by faith and driven by integrity, we
+                    deliver world-class professional services tailored to the unique needs of every client we serve.
+                    Proverbs 16:3 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                     <a

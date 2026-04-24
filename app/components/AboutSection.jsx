@@ -16,7 +16,10 @@ export default function AboutSection() {
                     <div className="card group hover:shadow-xl transition-shadow">
                         <div className="text-5xl mb-6 text-primary-600 transform transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-700">🎯</div>
                         <h2 className="text-2xl font-bold text-neutral-900 mb-4">Our Mission</h2>
-                        <p className="text-lg text-neutral-600 leading-relaxed mb-4">To provide high-quality HR and financial management services that empower  organizations, promote integrity, and reflect the values of the Kingdom of God.
+                        <p className="text-lg text-neutral-600 leading-relaxed mb-4">To serve organizations with integrity and excellence — delivering transformative BPO and
+                            consulting solutions across financial management, back office operations, human resources,
+                            and co-management, empowering businesses to grow efficiently and sustainably, all to the
+                            glory of God.
                         </p>
 
                     </div>
@@ -26,7 +29,9 @@ export default function AboutSection() {
                         <div className="text-5xl mb-6 text-primary-600 transform transition-transform duration-300 group-hover:scale-110 group-hover:text-primary-700">✨</div>
                         <h2 className="text-2xl font-bold text-neutral-900 mb-4">Our Vision</h2>
                         <p className="text-lg text-neutral-600 leading-relaxed mb-4">
-                            To become a leading Christian consulting firm in Africa and beyond, transforming  businesses through faith-driven excellence and professional service.
+                            To be a globally recognized, faith-driven BPO and consulting firm a trusted partner
+                            known for transforming businesses through operational excellence, financial wisdom, and
+                            people-centered solutions, while reflecting the light of Christ in every engagement.
                         </p>
 
                     </div>
